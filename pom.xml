@@ -11,6 +11,7 @@
 
   <modules>
     <module>customer</module>
+    <module>fraud</module>
   </modules>
 
   <name>manuelservices</name>
@@ -40,6 +41,9 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
+      <version>1.18.34</version>
+
+
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>

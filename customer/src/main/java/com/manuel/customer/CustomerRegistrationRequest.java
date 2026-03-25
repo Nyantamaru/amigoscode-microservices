@@ -1,4 +1,4 @@
-package com.amigoscode.customer;
+package com.manuel.customer;
 
 public record CustomerRegistrationRequest(
         String firstName,
