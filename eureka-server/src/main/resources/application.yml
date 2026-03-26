@@ -1,0 +1,26 @@
+spring:
+    application:
+        name: eureka-server
+
+server:
+    port: 8761
+
+eureka:
+    instance:
+        hostname: localhost
+        prefer-ip-address: false        # false = use hostname (cleaner for standalone)
+        # prefer-ip-address: true       # use this if you prefer IP in dashboard
+
+    client:
+        fetch-registry: false
+        register-with-eureka: false
+
+    server:
+        enable-self-preservation: false   # optional for local dev (avoids "RENEWALS ARE LESSER" warnings)
+        eviction-interval-timer-in-ms: 30000
+
+    service-url:
+        defaultZone: http://localhost:8761/eureka/
+
+
+
