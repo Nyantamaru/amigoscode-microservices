@@ -1,4 +1,4 @@
-package com.manuel.fraud;
+package com.manuel.notification;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

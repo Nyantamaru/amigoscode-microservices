@@ -1,4 +1,4 @@
-package com.manuel.fraud;
+package com.manuel.notification;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

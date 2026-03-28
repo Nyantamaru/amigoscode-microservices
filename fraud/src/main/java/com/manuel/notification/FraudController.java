@@ -1,4 +1,4 @@
-package com.manuel.fraud;
+package com.manuel.notification;
 
 import com.manuel.clients.fraud.FraudCheckResponse;
 import lombok.AllArgsConstructor;
